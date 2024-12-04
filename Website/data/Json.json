@@ -1,0 +1,27 @@
+[
+  {
+    "label": "cuti",
+    "percentage": 9.43,
+    "description": "Kata 'cuti' memiliki 9.43% dari total frekuensi kata."
+  },
+  {
+    "label": "thr",
+    "percentage": 5.66,
+    "description": "Kata 'thr' memiliki 5.66% dari total frekuensi kata."
+  },
+  {
+    "label": "anak",
+    "percentage": 3.77,
+    "description": "Kata 'anak' memiliki 3.77% dari total frekuensi kata."
+  },
+  {
+    "label": "karyawan",
+    "percentage": 2.83,
+    "description": "Kata 'karyawan' memiliki 2.83% dari total frekuensi kata."
+  },
+  {
+    "label": "bpjs",
+    "percentage": 2.83,
+    "description": "Kata 'bpjs' memiliki 2.83% dari total frekuensi kata."
+  }
+]

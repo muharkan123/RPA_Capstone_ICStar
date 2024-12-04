@@ -1,0 +1,333 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "name&Sequence_17",
+        "jobPosition&Sequence_17",
+        "email&Sequence_17",
+        "startDate&Sequence_17",
+        "endDate&Sequence_17",
+        "fileReport&Sequence_17",
+        "outputForm&Sequence_17",
+        "selectedButton&Sequence_17",
+        "filePath&Sequence_17",
+        "config&Sequence_17",
+        "DTForm&Sequence_17",
+        "DTFormRes&Sequence_17",
+        "DTDate&Sequence_17",
+        "DTDateRes&Sequence_17",
+        "currentFileUpload&Sequence_17",
+        "xcellB&Sequence_17",
+        "strBase64Img&Sequence_17",
+        "configData&Sequence_46",
+        "G_StartTime&Sequence_49"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ExcelFile",
+        "dataProcessingResultArray",
+        "in_APIGemini",
+        "in_pyPathlib",
+        "in_StartDate",
+        "in_EndDate",
+        "in_UserName",
+        "in_UserEmail",
+        "in_UserJobPosition",
+        "fileName",
+        "res_File",
+        "in_WebsitePath",
+        "out_path_Result",
+        "G_StartTime",
+        "G_ProcessName",
+        "G_PathAutomationRun",
+        "G_Comments",
+        "G_Status",
+        "G_EndTime",
+        "G_Duration",
+        "in_TerminalPathNuget",
+        "in_pyPath",
+        "in_pyScript",
+        "DT_REPORT",
+        "in_FolderPathRobot"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/LoadAndProcessData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "G_StartTime&Sequence_10",
+        "G_ProcessName&Sequence_10",
+        "G_Comments&Sequence_10",
+        "G_Status&Sequence_10",
+        "G_EndTime&Sequence_10",
+        "G_Duration&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_REPORT",
+        "in_FolderPathRobot",
+        "in_pyPath",
+        "pyScript",
+        "in_pyScript",
+        "in_ExcelFile",
+        "dataProcessing",
+        "dataProcessingResult",
+        "dataProcessingResultArray",
+        "DT",
+        "in_pyPathlib",
+        "in_EndDate",
+        "in_StartDate"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/SuggestAnalysisAI.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "G_StartTime&Sequence_3",
+        "G_ProcessName&Sequence_3",
+        "G_Status&Sequence_3",
+        "G_EndTime&Sequence_3",
+        "G_Comments&Sequence_3",
+        "G_Duration&Sequence_3",
+        "pathWord&Sequence_1",
+        "finalSummary&Sequence_1",
+        "resultAnalysisSummaryObj&Sequence_1",
+        "finalSuggestion&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_REPORT",
+        "in_FolderPathRobot",
+        "dataProcessingResult",
+        "in_GeminiAPI",
+        "resultAnalysisSuggestionGPT",
+        "resultAnalysisSum",
+        "in_pyScript",
+        "pyScript",
+        "in_pyPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/TopWords.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "G_StartTime&Sequence_2",
+        "G_ProcessName&Sequence_2",
+        "G_Status&Sequence_2",
+        "G_EndTime&Sequence_2",
+        "G_Comments&Sequence_2",
+        "G_Duration&Sequence_2",
+        "topPhrases&Sequence_5",
+        "topPhrasesResult&Sequence_5",
+        "topPhrasesResultArray&Sequence_5",
+        "DT&Sequence_5",
+        "topwordsJson&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_REPORT",
+        "in_FolderPathRobot",
+        "in_pyScript",
+        "pyScript",
+        "in_pyPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/DashboardHTML.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "finalSuggestions",
+        "finalConclusions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/VisualisasiCharts.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "resChartObj&Sequence_15",
+        "G_Status&Sequence_1",
+        "G_EndTime&Sequence_1",
+        "G_Comments&Sequence_1",
+        "G_Duration&Sequence_1",
+        "G_StartTime&Sequence_1",
+        "G_ProcessName&Sequence_1",
+        "chartExcelTopWords&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_REPORT",
+        "in_FolderPathRobot",
+        "in_pyPath",
+        "in_pyScript",
+        "pyScript"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/TopicModelling.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "finalSuggestion&Sequence_1",
+        "finalConclusion&Sequence_1",
+        "resultAnalysisGPTObj&Sequence_6",
+        "resultAnalysisSuggestionGPTObj&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_PreprocessingExcel",
+        "in_pyPath",
+        "pyScript",
+        "in_pyScript",
+        "dataProcessingResult",
+        "resultAnalysisGPT",
+        "in_GeminiAPI",
+        "resultAnalysisSuggestionGPT"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/SendEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "logChatFile&Sequence_5",
+        "hasilAnalisisPDF&Sequence_5",
+        "G_Status&Sequence_1",
+        "G_EndTime&Sequence_1",
+        "G_Comments&Sequence_1",
+        "G_Duration&Sequence_1",
+        "G_StartTime&Sequence_1",
+        "G_ProcessName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_FolderPathRobot",
+        "DT_REPORT",
+        "in_EndDate",
+        "in_StartDate",
+        "in_FileName",
+        "in_UserGmail",
+        "in_UserJob",
+        "in_UserName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/SentimentValue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sentiment&Sequence_2",
+        "sentimentResult&Sequence_2",
+        "sentimentResultArray&Sequence_2",
+        "DT&Sequence_2",
+        "sentimentJson&Sequence_2",
+        "G_StartTime&Sequence_3",
+        "G_ProcessName&Sequence_3",
+        "G_Status&Sequence_3",
+        "G_EndTime&Sequence_3",
+        "G_Comments&Sequence_3",
+        "G_Duration&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_REPORT",
+        "in_FolderPathRobot",
+        "in_pyScript",
+        "pyScript",
+        "in_pyPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/CMDProcess.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "G_StartTime&Sequence_1",
+        "G_ProcessName&Sequence_1",
+        "G_Status&Sequence_1",
+        "G_EndTime&Sequence_1",
+        "G_Comments&Sequence_1",
+        "G_Duration&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_REPORT",
+        "in_TerminalPathNuget",
+        "in_FolderPathRobot"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/TestTime.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "chartXLS&Sequence_3",
+        "time2&Sequence_1",
+        "time1&Sequence_1",
+        "chartXL&Sequence_2",
+        "chartXL&Sequence_3",
+        "endTime&Sequence_1",
+        "startTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process/SentimentExample.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "G_StartTime&Sequence_3",
+        "G_ProcessName&Sequence_3",
+        "G_Status&Sequence_3",
+        "G_EndTime&Sequence_3",
+        "G_Comments&Sequence_3",
+        "G_Duration&Sequence_3",
+        "sentiMessage&Sequence_2",
+        "sentiMessageResult&Sequence_2",
+        "sentiMessageResultArray&Sequence_2",
+        "DT&Sequence_2",
+        "sentimessageJson&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "DT_REPORT",
+        "in_FolderPathRobot",
+        "in_pyScript",
+        "pyScript",
+        "in_pyPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

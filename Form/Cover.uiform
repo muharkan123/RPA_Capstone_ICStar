@@ -1,0 +1,55 @@
+﻿{
+  "Metadata": {
+    "Id": "c5b688ad-49e5-4d35-b6fb-275a95405259",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Cover",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "tag": "h2",
+        "content": "Selamat Datang di Astrid GPT Analytics 🎉",
+        "key": "label",
+        "input": false,
+        "tableView": false,
+        "label": "Label",
+        "type": "label"
+      },
+      {
+        "html": "<p>Halo! Saya Astrid GPT Analytics, AI yang siap membantu Anda mengubah data log chat menjadi <i>insights</i> yang berharga. Anda akan menerima laporan analisis yang mencakup:</p><ol><li><strong>Analisis Sentimen</strong> 😊</li><li><strong>Pemodelan Topik</strong> 📊</li><li><strong>Ringkasan dan Saran</strong> 💡</li></ol><p>Untuk memulai, silakan unggah file Excel Anda dengan mengklik tombol di bawah ini. 📁</p><p>Setelah Anda mengirimkan, saya akan mengirimkan laporan langsung ke email Anda, jadi pastikan email yang Anda masukkan benar ya. Terima kasih, dan selamat menganalisis! 🚀</p>",
+        "label": "Content",
+        "refreshOnChange": false,
+        "key": "content",
+        "type": "content",
+        "input": false,
+        "tableView": false
+      },
+      {
+        "html": "<p><i>@Powered by Team 6 IOH - ICStar Hackathon 2024</i></p>",
+        "label": "Content",
+        "customClass": "#content1 {     font-size: 12px;      /* Ukuran font kecil */     text-align: center;   /* Teks di tengah */     color: #333333;       /* Warna teks agar mudah dibaca */     font-family: Arial, sans-serif; /* Font yang umum */     padding: 5px;         /* Jarak sedikit di sekitar teks */ }",
+        "refreshOnChange": true,
+        "key": "content1",
+        "type": "content",
+        "input": false,
+        "tableView": false
+      },
+      {
+        "label": "Input File Excel",
+        "showValidations": false,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}

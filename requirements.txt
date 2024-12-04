@@ -1,0 +1,13 @@
+torch
+torchvision
+torchaudio
+transformers
+pandas
+openpyxl
+nltk
+Sastrawi
+pyLDAvis
+google-generativeai
+streamlit
+bertopic
+sentence-transformers

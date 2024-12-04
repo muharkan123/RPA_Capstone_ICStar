@@ -1,0 +1,153 @@
+﻿{
+  "Metadata": {
+    "Id": "77a16b37-5970-4422-8fd4-b10177aca672",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "FormData",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "tag": "h2",
+        "content": "Astrid GPT Report Analytics Request Form",
+        "key": "label",
+        "input": false,
+        "tableView": false,
+        "label": "Label",
+        "type": "label"
+      },
+      {
+        "html": "<p><strong>Halo! Untuk memulai analisis data Anda, silakan lengkapi formulir di bawah ini dengan informasi yang diperlukan:</strong></p><ul><li>Name: Nama lengkap Anda&nbsp;</li><li>Email: Pastikan memasukkan email yang benar agar hasil analisis bisa kami kirimkan&nbsp;</li><li>Job Position: Jabatan atau peran pekerjaan Anda&nbsp;</li><li>File Path: Upload file telah dilakukan pada langkah sebelumnya&nbsp;</li><li>Start Date: Tanggal mulai periode data yang ingin dianalisis&nbsp;</li><li>End Date: Tanggal akhir periode data yang ingin dianalisis</li></ul><p>Setelah semua data terisi, klik tombol <strong>Submit</strong> untuk mengirim permintaan Anda. Saya akan segera memproses data dan mengirimkan hasil analisis ke email Anda! 😊</p>",
+        "label": "Content",
+        "refreshOnChange": false,
+        "key": "content1",
+        "type": "content",
+        "input": false,
+        "tableView": false
+      },
+      {
+        "label": "Name",
+        "tableView": true,
+        "validate": {
+          "required": true
+        },
+        "key": "name",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Email",
+        "tableView": true,
+        "validate": {
+          "required": true
+        },
+        "key": "email",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Job Position",
+        "tableView": true,
+        "validate": {
+          "required": true
+        },
+        "key": "jobPosition",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "File Path",
+        "disabled": true,
+        "tableView": true,
+        "validate": {
+          "required": true
+        },
+        "key": "filePath",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Start Date",
+        "format": "MM/dd/yyyy",
+        "tableView": false,
+        "datePicker": {
+          "disableWeekends": false,
+          "disableWeekdays": false
+        },
+        "enableTime": false,
+        "enableMinDateInput": false,
+        "enableMaxDateInput": false,
+        "key": "startDate",
+        "type": "datetime",
+        "input": true,
+        "widget": {
+          "type": "calendar",
+          "displayInTimezone": "viewer",
+          "locale": "en",
+          "useLocaleSettings": false,
+          "allowInput": true,
+          "mode": "single",
+          "enableTime": false,
+          "noCalendar": false,
+          "format": "MM/dd/yyyy",
+          "hourIncrement": 1,
+          "minuteIncrement": 1,
+          "time_24hr": false,
+          "minDate": null,
+          "disableWeekends": false,
+          "disableWeekdays": false,
+          "maxDate": null
+        }
+      },
+      {
+        "label": "End Date",
+        "format": "MM/dd/yyyy",
+        "tableView": false,
+        "datePicker": {
+          "disableWeekends": false,
+          "disableWeekdays": false
+        },
+        "enableTime": false,
+        "validate": {
+          "required": true
+        },
+        "enableMinDateInput": false,
+        "enableMaxDateInput": false,
+        "key": "endDate",
+        "type": "datetime",
+        "input": true,
+        "widget": {
+          "type": "calendar",
+          "displayInTimezone": "viewer",
+          "locale": "en",
+          "useLocaleSettings": false,
+          "allowInput": true,
+          "mode": "single",
+          "enableTime": false,
+          "noCalendar": false,
+          "format": "MM/dd/yyyy",
+          "hourIncrement": 1,
+          "minuteIncrement": 1,
+          "time_24hr": false,
+          "minDate": null,
+          "disableWeekends": false,
+          "disableWeekdays": false,
+          "maxDate": null
+        }
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}

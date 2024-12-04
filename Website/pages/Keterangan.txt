@@ -1,0 +1,26 @@
+Cara Membaca Visualisasi LDA
+A. Peta Jarak Antar-Topik (Intertopic Distance Map):
+
+1. Lingkaran yang Ditampilkan: Setiap lingkaran di peta ini mewakili satu topik yang ditemukan dalam data.
+2. Jarak Antar Lingkaran: Semakin dekat jarak antara dua lingkaran, semakin mirip atau terkait topik tersebut. Jika lingkaran jauh, topik tersebut lebih berbeda satu sama lain.
+3. Ukuran Lingkaran: Lingkaran yang lebih besar menunjukkan topik yang muncul lebih sering atau lebih relevan dalam data.
+
+B. Daftar Kata Penting (Top-30 Most Salient Terms):
+
+1. Di sebelah kanan visualisasi, Anda akan melihat daftar kata paling penting untuk topik yang dipilih.
+2. Salient Terms: Ini adalah kata-kata yang paling sering muncul dan sangat khas untuk topik tersebut, sehingga kata-kata ini membantu kita memahami inti dari topik yang ada.
+3. Contoh: Jika topik terkait “pengembangan karir,” maka kata-kata penting mungkin termasuk “pelatihan,” “kompetensi,” atau “karir.”
+
+C. Pengaturan Lambda:
+
+1. Lambda adalah parameter yang dapat diatur untuk mengubah tampilan kata di dalam topik.
+2. Lambda tinggi (1.0): Menampilkan kata-kata yang lebih umum di semua topik. Cocok untuk melihat gambaran besar dari data.
+3. Lambda rendah (0.0): Menampilkan kata-kata spesifik yang hanya relevan untuk topik tertentu. Gunakan ini untuk memahami detail dari setiap topik.
+
+D. Menemukan Insight:
+
+1. Dengan melihat posisi dan ukuran lingkaran, Anda dapat langsung mengidentifikasi topik yang sering muncul dalam feedback karyawan
+2. Jika Anda memilih sebuah lingkaran, Anda akan melihat Top-30 Most Relevant Terms yang sangat khas untuk topik tersebut. 
+3. Contoh: 
+- Top-30 Most Relevant Terms adalah 30 kata yang paling relevan untuk sebuah topik dalam analisis LDA. Kata-kata ini sering muncul dan paling mendefinisikan topik tersebut. Misalnya, untuk Topik 1, yang berhubungan dengan "Kesejahteraan Karyawan", kata-kata seperti "gaji," "cuti," "bonus" akan muncul.
+- 26.1% of tokens berarti sekitar 26.1% dari semua kata dalam dataset terkait dengan Topik 1, menunjukkan bahwa topik ini cukup dominan dalam data.
